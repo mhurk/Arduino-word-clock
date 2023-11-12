@@ -10,8 +10,8 @@
 #include <time.h>
 #include <ctime>
 
-const char* ssid     = "Octo_gast";
-const char* password = "4hurkjes";
+const char* ssid     = "xxxxx";
+const char* password = "xxxxx";
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 3600;     //Amsterdam timezone
 const int   daylightOffset_sec = 3600;
