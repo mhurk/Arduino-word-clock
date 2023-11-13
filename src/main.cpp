@@ -20,8 +20,8 @@ update for wintertime: Oct 2022
 #include <vector>
 using namespace std;
 
-const char* ssid     = "Octo";
-const char* password = "61079083Ax$";
+const char* ssid     = "xxxxx";
+const char* password = "xxxxx";
 WiFiServer server(80);                    // Set web server port number to 80
 String header;                            // Variable to store the HTTP request
 const char* ntpServer = "pool.ntp.org";   // Time server.
