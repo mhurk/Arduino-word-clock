@@ -1,14 +1,8 @@
 /* WordClock Project
 
-Some sources: 
-time and date via WiFi: https://randomnerdtutorials.com/esp32-date-time-ntp-client-server-arduino
-webserver: https://randomnerdtutorials.com/esp32-web-server-arduino-ide/
-wineGlass/beerGlass/coctail matrices made with LEDMatrixStudio
-
-Mayk van den Hurk, May 2022
+mhurk, May 2022
 update for wintertime: Oct 2022
-    added setTimezone (source: https://randomnerdtutorials.com/esp32-ntp-timezones-daylight-saving/)
-    added initTime (also in setup())
+   added initTime (also in setup())
 
  */
 
