@@ -6,7 +6,7 @@ The code is written to work on a clock with a Dutch layout. For other languages 
 ## Functions
 - Display a word clock with words for every five minutes.
 - Display one LED for each minute after the five minutes. So 19 past one would display as a quarter past one and four additional lights
-- Synchronize with a time server at boot and every five minutes. This also ensure summer and winter time. (this may be considered a too often but did fix a few issues with incorrect times being shown)
+- Synchronize with a time server at boot and every five minutes. This also ensure summer and winter time. (this may be considered as too often but did fix a few issues with incorrect times being shown)
 - Change brightness depending on the brightness of the surroundings. Brightness is lower in a dark environment
 - Run a webserver on a local network for the following functions:
   - Show current brightness level
