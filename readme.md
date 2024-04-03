@@ -1,12 +1,12 @@
 # Wordclock
 
 This is the code for a wordclock which runs on an ESP32 with WiFi functionality. It uses the Arduino framework.
-The code is written to work on a clock with a Dutch layout. For other languages the code (and the front plate of the clock) need to be adapted.
+The code is written to work on a clock with a Dutch layout. For other languages the code (and the front plate of the clock of course) need to be adapted.
 
 ## Functions
 - Display a word clock with words for every five minutes.
 - Display one LED for each minute after the five minutes. So 19 past one would display as a quarter past one and four additional lights
-- Synchronize with a time server at boot and every five minutes. This also ensure summer and winter time. (this may be considered as too often but did fix a few issues with incorrect times being shown)
+- Synchronize with a time server at boot and every five minutes. This also ensures summer and winter time is set correctly. (this may be considered as too often but did fix a few issues with incorrect times being shown)
 - Change brightness depending on the brightness of the surroundings. Brightness is lower in a dark environment
 - Run a webserver on a local network for the following functions:
   - Show current brightness level
