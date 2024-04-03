@@ -1,4 +1,4 @@
-# Wordclock
+# Word clock
 
 This is the code for a wordclock which runs on an ESP32 with WiFi functionality. It uses the Arduino framework.
 The code is written to work on a clock with a Dutch layout. For other languages the code (and the front plate of the clock of course) need to be adapted.
