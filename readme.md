@@ -5,18 +5,18 @@ The code is written to work on a clock with a Dutch layout. For other languages 
 
 ## Functions
 - Display a word clock with words for every five minutes.
-- Display one LED for each minute after the five minutes. So 19 past one would display as a quarter past one and four additional lights
+- Display one LED for each minute after the five minutes. So 19 past one would display as a quarter past one and four additional lights.
 - Synchronize with a time server at boot and every five minutes. This also ensures summer and winter time is set correctly. (this may be considered as too often but did fix a few issues with incorrect times being shown)
-- Change brightness depending on the brightness of the surroundings. Brightness is lower in a dark environment
+- Change brightness depending on the brightness of the surroundings. Brightness is lower in a dark environment.
 - Run a webserver on a local network for the following functions:
-  - Show current brightness level
-  - Change color of the LEDs (startup color is the default color, not the last set)
-  - Display a glass of beer
-  - Display a test pattern (for checking functions. This is a hidden effect, you need to change the url manually.)
-  - Run animations
-    - Filling wine glass
-    - Filling cocktail glass
-    - stroboscope effect (hidden effect)
+  - Show current brightness level.
+  - Change color of the LEDs (startup color is the default color, not the last set).
+  - Display a glass of beer.
+  - Run animations:
+    - Filling wine glass.
+    - Filling cocktail glass.
+    - stroboscope effect (hidden effect, not selectable in the web interface).
+  - Display a test pattern for checking functions. This is also a hidden effect, you need to change the url manually.
 
 ## Remarks on the code
 This is one large block of code of ~1000 lines. I think this is a good example of really poor coding practice. For example the LED layout for the animations is included in the main code. It can be drastically improved for readability and for the use of different languages. This is an improvement which is currently not planned.
