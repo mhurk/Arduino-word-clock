@@ -22,7 +22,7 @@ The code is written to work on a clock with a Dutch layout. For other languages 
 This is one large block of code of ~1000 lines. I think this is a good example of really poor coding practice. For example the LED layout for the animations is included in the main code. It can be drastically improved for readability and for the use of different languages. This is an improvement which is currently not planned.
 
 ## Some images
-The final clock. As mentioned, it is in Dutch. Also the design is the first prototype. Can be improved with, for example, a steel or glass plate. This in 3 mm plywood with laser cutted openings. Other improvements are in the design of structure behind the front plate, to allow more light to go outside and to prevent 'leakage' to other letters. 
+The final clock. As mentioned, it is in Dutch. Also the design is the first prototype. Can be improved with, for example, a steel or glass plate. This is 3 mm plywood with laser cutted openings. Other improvements are in the design of structure behind the front plate, to allow more light to go outside and to prevent 'leakage' to other letters. 
 
 ![final result](images/resultaat.jpg)
 
