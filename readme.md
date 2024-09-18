@@ -1,3 +1,9 @@
+![GitHub Created At](https://img.shields.io/github/created-at/mhurk/Arduino-word-clock)
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/mhurk/Arduino-word-clock)
+![GitHub repo size](https://img.shields.io/github/repo-size/mhurk/arduino-word-clock)
+![GitHub language count](https://img.shields.io/github/languages/count/mhurk/arduino-word-clock)
+![GitHub last commit](https://img.shields.io/github/last-commit/mhurk/arduino-word-clock)
+
 # Word clock
 
 This is the code for a wordclock which runs on an ESP32 with WiFi functionality. It uses the Arduino framework.
